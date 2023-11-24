@@ -67,7 +67,7 @@ describe('ScranAdvisor', () => {
             "Gopal's Corner Victoria",
             'The Gordon Highlander'
           ]
-          const actual = scranAdvisor.findRestarantNames(Array);
+          const actual = scranAdvisor.findRestarantNames();
           expect(actual).actual(expected);
     })
 
